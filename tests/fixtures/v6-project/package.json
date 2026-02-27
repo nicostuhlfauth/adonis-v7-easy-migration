@@ -1,0 +1,23 @@
+{
+  "name": "my-adonis-v6-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ace serve --watch",
+    "build": "node ace build",
+    "start": "node bin/server.js"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^6.12.0",
+    "@adonisjs/lucid": "^21.2.0",
+    "@vinejs/vine": "^2.1.0",
+    "edge.js": "^6.0.2"
+  },
+  "devDependencies": {
+    "@japa/plugin-adonisjs": "^3.0.0",
+    "@types/node": "^22.0.0",
+    "@swc/core": "^1.7.0",
+    "ts-node-maintained": "^1.0.0",
+    "typescript": "~5.6.0"
+  }
+}

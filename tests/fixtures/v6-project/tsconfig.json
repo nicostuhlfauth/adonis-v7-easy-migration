@@ -1,0 +1,14 @@
+{
+  // fixture file — @adonisjs/tsconfig is not installed in this tool's node_modules,
+  // so the extends is replaced with equivalent inline options
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "rootDir": "./",
+    "outDir": "./build"
+  }
+}
